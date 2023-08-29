@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration_Form</title>
+    <meta name="viewport" content="width=device-width, initial-scaled=1, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">Registration Form</h1>
+        <h2 id="subheading">Please Fill Details Given Below</h2>
+    </div>
+    <form>
+        <div id="content1">
+            <label>Name</label> <br><br>
+            <input type="name" name="name" placeholder="Enter Your Name" class="box"> <br><br>
+            <label>Email</label> <br><br>
+            <input type="Email" name="Email" placeholder="Enter Your Email" class="box"> <br><br>
+            <label>Age</label> <br><br>
+            <input type="Age" name="Age" placeholder="Enter Your Age" class="box"> <br><br>
+            <label>Gender</label> <br><br>
+        
+        <div id="option1">
+        <select>
+            <option name="Gender">Select Your Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+    </div>
+    <br>
+    <label id="head1">Select Your Role</label> <br> <br>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspStudent<br> <br>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspFreelancer<br> <br>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspFull Time<br> <br>
+    <label>If You are a student,in which year you are studying? </label> <br>
+    <div id="option2">
+    <select>
+        <option name="Select an option">Select an option</option>
+        <option value="Challenged">First Year</option>
+        <option value="Projects">Second Year</option>
+        <option value="Community">Third Year</option>
+        <option value="Open Source">Forth Year</option>
+    </select>
+    </div>
+    <br><br>
+    <label id="head2">Skills</label> <br>
+    <div id="content2">
+        <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspHTML</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspCSS</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspJava Script</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspPHP</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspOpen Source</label><br><br>
+    </div>
+    <label id="head2">Any comments or suggestions?</label> <br><br>
+    <textarea placeholder="Enter Your Comments Here..."></textarea> <br>
+    <button><h3>submit</h3></button>
+    </form>
+</body>
+</html>
